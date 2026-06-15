@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 h1 {
     font-family: 'TT Turns';
     font-weight: 1000; 
@@ -19,6 +23,13 @@ h2 {
     max-width: 100vw;
     margin-bottom: 1vw;
 }
+.image-text p {
+    font-family: 'TT Turns';
+    font-weight: 400; 
+    font-size: 1.5vw;
+    width: 100%;
+    padding: 1vw 0vw;
+}
 header {
     padding: 2vw;
 }
@@ -26,9 +37,8 @@ header {
     font-family: 'TT Turns';
     font-weight: 400; 
     font-size: 1.5vw;
-    height: 15vw;
-    width: 62vw;
-    padding: 0vw 2vw;
+    width: 70vw;
+    padding: 2vw 2vw;
     margin-bottom: 2vw;
 }
 .subtitle {
@@ -59,13 +69,14 @@ img {
 }
 .outro {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'TT Turns';
     font-weight: 400; 
     font-size: 1.5vw;
-    height: 20vh; 
-    padding: 2vw; 
+    gap: 1rem;
+    padding: 6vw; 
 }
 .amsterdam-gallery {
     max-width: 100vw;
