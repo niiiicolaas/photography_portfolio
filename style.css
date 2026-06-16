@@ -84,21 +84,34 @@ img {
 }
 @media only screen and (max-width: 768px) {
     h1 {
-        font-size: 8vw;
+        font-size: 10vw;
     }
     h2 {
-        font-size: 5vw;
+        font-size: 8vw;
+    }
+    .image-text p {
+        font-size: 4vw;
+    }
+    header {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        padding: 4vw;
+        margin-bottom: 4vw;
     }
     .intro {
-        font-size: 3vw;
-        max-width: 90vw;
+        font-size: 4vw;
+        width: 90vw;
+        padding: 4vw 4vw;
     }
     .container {
         flex-direction: column;
         gap: 8vw;
+        padding: 0 4vw;
     }
     .outro {
         font-size: 3vw;
         height: auto; 
+        padding: 10vw 0vw;
     }
 }
